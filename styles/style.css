@@ -136,7 +136,7 @@ a:focus, button:focus {
 .content__text-block_type_first-lettered .content__paragraph:first-child::first-letter {
   background-color: var(--accent-color, #FFAB6B);
   display: inline-block;
-  padding: 4px;
+  padding: 0 4px;
   margin-right: 1px;
   font-weight: 700;
   font-size: 30px;
@@ -144,7 +144,6 @@ a:focus, button:focus {
 
 .theme_dark .content__text-block_type_first-lettered .content__paragraph:first-child::first-letter {
   border: 1px solid var(--text-color);
-  padding: 0 4px;
 }
 
 .content__picture {
