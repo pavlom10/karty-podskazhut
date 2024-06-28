@@ -151,6 +151,8 @@ a:focus, button:focus {
 
 .content__picture {
   width: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 .content__figure {
