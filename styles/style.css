@@ -29,8 +29,8 @@ a:focus, button:focus {
   --bg-color: #F5F5F5;
   --text-color: #312A4E;
   --accent-color: #FFAB6B;
-  --main-font: Raleway;
-  --accent-font: 'STIX Two Text';
+  --main-font: Raleway, Arial, sans-serif;
+  --accent-font: 'STIX Two Text', serif;
 }
 
 .theme_dark {
@@ -103,6 +103,8 @@ a:focus, button:focus {
 
 .content__list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .content__list li {
@@ -140,6 +142,7 @@ a:focus, button:focus {
   margin-right: 1px;
   font-weight: 700;
   font-size: 30px;
+  line-height: 27px;
 }
 
 .theme_dark .content__text-block_type_first-lettered .content__paragraph:first-child::first-letter {
@@ -163,7 +166,7 @@ a:focus, button:focus {
   font-size: 18px;
   padding: 20px 0;
   border-bottom: 1px solid #312A4E;
-  margin-bottom: 91px;
+  margin-bottom: 6%;
 }
 
 .content__card {
@@ -218,13 +221,14 @@ a:focus, button:focus {
 .header__theme-toggler {
   list-style-type: none;
   display: flex;
-  gap: 20px;
+  gap: 17px;
 }
 
 .header__theme-button {
   font-family: inherit;
   color: currentColor;
   font-size: 18px;
+  line-height: 108%;
   cursor: pointer;
   background-color: transparent;
   border: none;
